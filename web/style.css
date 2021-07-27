@@ -1,0 +1,181 @@
+.frame-1 {
+  align-items: flex-start;
+  background-color: #b12a2a;
+  display: flex;
+  height: 472.5px;
+  mix-blend-mode: normal;
+  padding: 0 21.8px;
+  width: 799.15px;
+}
+.frame-1 .dictionary {
+  height: 42px;
+  mix-blend-mode: normal;
+  width: 188px;
+}
+.frame-1 .enter-word {
+  height: 34px;
+  margin-top: 4.4px;
+  mix-blend-mode: normal;
+  width: 218px;
+}
+.frame-1 .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 274.68px;
+  margin-top: 8px;
+  min-width: 143px;
+}
+.frame-1 .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-right: 9.68px;
+  margin-top: 29px;
+  min-width: 693px;
+}
+.frame-1 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 9.68px;
+  margin-top: 53px;
+  min-width: 657px;
+}
+.frame-1 .frame-2 {
+  align-items: flex-end;
+  background-color: #b83e3e;
+  display: flex;
+  flex-direction: column;
+  height: 413px;
+  margin-top: 32.57px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  width: 745px;
+}
+.frame-1 .frame-3 {
+  height: 1px;
+  width: 4px;
+}
+.frame-1 .left-return-arr-w-svgrepo-com-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 33px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 0 1.7px;
+  width: 33px;
+}
+.frame-1 .meaning {
+  height: 42px;
+  margin-top: 6.1px;
+  mix-blend-mode: normal;
+  width: 180px;
+}
+.frame-1 .overlap-group {
+  align-items: flex-end;
+  background-color: var(--mist-gray);
+  border-radius: 28.172115325927734px/28.612306594848633px;
+  display: flex;
+  height: 57px;
+  margin-left: 28px;
+  min-width: 56px;
+  padding: 12.1px 11.4px;
+}
+.frame-1 .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--mist-gray);
+  border-radius: 29.05249786376953px/28.612306594848633px;
+  display: flex;
+  height: 57px;
+  min-width: 58px;
+  padding: 6.2px 5.3px;
+}
+.frame-1 .overlap-group2 {
+  align-items: center;
+  background-color: var(--mist-gray);
+  display: flex;
+  height: 50px;
+  margin-right: 0;
+  margin-top: -4px;
+  min-width: 745px;
+  padding: 0 278.7px;
+}
+.frame-1 .overlap-group3 {
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  display: flex;
+  height: 49px;
+  margin-left: 5px;
+  min-width: 469px;
+  padding: 15.8px 82.8px;
+}
+.frame-1 .rectangle-4 {
+  background-color: #fffdfd;
+  height: 163px;
+  margin-left: 7px;
+  mix-blend-mode: normal;
+  width: 469px;
+}
+.frame-1 .search-svgrepo-com-1 {
+  align-items: flex-start;
+  display: flex;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 0 5.1px;
+  width: 47px;
+}
+.frame-1 .vector {
+  height: 44px;
+  margin-top: -0.24px;
+  mix-blend-mode: normal;
+  width: 36px;
+}
+.frame-1 .vector-1 {
+  height: 34px;
+  margin-top: -0.34px;
+  mix-blend-mode: normal;
+  width: 30px;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+#word{
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  text-transform: capitalize;
+}
+#meaning1{
+  font-weight: bolder;
+  font-size: larger;
+}
+#total{
+  position:absolute;
+  top: 0%;
+}
+#resetid{
+  position: relative;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+}
+#meaningid{
+  position: relative;
+  top:3px;
+}
